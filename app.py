@@ -11,8 +11,6 @@ st.title("Mask Detection")
 
 img = st.file_uploader("Upload an image")
 
-st.image(img)
-
 if st.button('Submit'):
 
     img2 = Image.open(img)
